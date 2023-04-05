@@ -7,6 +7,14 @@ function crearGato(nombre, edad) {
    // La propiedad "meow" será una función que retorne el string: "Meow!".
    // Retornar el objeto.
    // Tu código:
+   var perro = {
+      nombre: nombre,
+      edad: edad,
+      meow: function() {
+        return "Meow!";
+      }
+    };
+    return perro;
 }
 
 function nuevoUsuario(nombre, email, password) {
@@ -41,6 +49,7 @@ function eliminarPropiedad(objeto, propiedad) {
    // El parámetro "propiedad" es una propiedad del objeto que recibes.
    // Debes eliminarla del objeto y retornarlo finalmente.
    // Tu código:
+
 }
 
 function tieneEmail(objetoUsuario) {
